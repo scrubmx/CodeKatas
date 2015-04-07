@@ -7,7 +7,7 @@ class FizzBuzz:
 
 	def convert(self, number):
 
-		# throws an exception if can convert
+		# throws an exception if can't convert
 		number = int(number)
 
 		result = ""
