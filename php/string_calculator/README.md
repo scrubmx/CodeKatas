@@ -1,1 +1,1 @@
-# PHP String Calculator Karta
+# PHP String Calculator Kata
