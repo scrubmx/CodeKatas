@@ -1,0 +1,4 @@
+suites:
+    main:
+        namespace: Kata
+        psr4_prefix: Kata
