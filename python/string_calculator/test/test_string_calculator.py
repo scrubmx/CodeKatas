@@ -3,14 +3,14 @@
 
 from __future__ import unicode_literals
 
-from ..src import stringCalculator
+from ..src import string_calculator
 
 import unittest
 
 class TestStringCalculator(unittest.TestCase):
 
 	def setUp(self):
-		self.stringCalculator = stringCalculator.StringCalculator()
+		self.stringCalculator = string_calculator.StringCalculator()
 
 	def test_returns_zero_with_empty_string(self):
 		self.assertEqual(0, self.stringCalculator.compute(""))
